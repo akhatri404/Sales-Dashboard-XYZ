@@ -4,6 +4,5 @@ streamlit
 plotly.express
 datetime
 numpy
-time
 plotly
 Image

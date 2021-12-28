@@ -16,7 +16,7 @@ st.title("Sales Dashboard of XYZ Company")
 st.markdown("For fiscal year 2020/2021")
 
 #loading the dataset
-revenue_data = pd.read_excel('D:/Ashish Drive/Document/Company/Projects/biproject/Revenue1.xlsx')
+revenue_data = pd.read_excel('/Revenue1.xlsx')
 
 #computing total sales amount
 total_sales = revenue_data['sales_amount'].sum()

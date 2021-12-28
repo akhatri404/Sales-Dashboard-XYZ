@@ -1,9 +1,9 @@
 pandas
-matplotlib.pyplot
+matplotlib
 streamlit
 plotly.express
 datetime
 numpy
 time
-plotly.graph_objects
+plotly
 Image

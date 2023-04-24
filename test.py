@@ -20,7 +20,7 @@ revenue_data = pd.read_excel(r"Revenue1.xlsx")
 
 #computing total sales amount
 total_sales = revenue_data['sales_amount'].sum()
-st.write("Total Sales: NPR ",total_sales/1000000,"Millions")
+st.write("Total Sales: NPR ",int(total_sales/1000000),"Millions")
 
 #computing best performing salesperson
 
